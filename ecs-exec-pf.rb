@@ -1,9 +1,9 @@
 class EcsExecPf < Formula
   desc 'Port forwarding using the ECS task container. (aws-cli wrapper)'
   homepage 'https://github.com/winebarrel/ecs-exec-pf'
-  version '0.1.0'
+  version '0.1.1'
   url "https://github.com/winebarrel/ecs-exec-pf/releases/download/v#{version}/ecs-exec-pf_v#{version}_darwin_amd64.gz"
-  sha256 '6853ddfa8ec99cb0f9c1ef0353c970196ecee780757c05c0bf6855ec44b211e5'
+  sha256 '4931d815001fe19d52190205c4a5187e7fc7aa2966b5d255be7678df4859c189'
   license 'MIT'
 
   def install
